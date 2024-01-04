@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1200px;
+}
+.container .form {
+    width: 60%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border: 2px solid #cfcfcf;
+    margin: 0 auto;
+}
+.form {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+.container h2{
+    text-align: center;
+    margin: 20px;
+}
+input[type="text"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 35px;
+    border-radius: 7px;
+    padding: 20px;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: green;
+}
+input[type="text"]:hover {
+    background-color: #09dd367d;
+    transition: 0.5s ease-in;
+}
+label {
+    margin-top: 20px;
+    padding: 8px 4px 5px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: system-ui;
+}
+input[type="date"] {
+    margin: 20px 0px;
+    width: 610px;
+    height: 43px;
+    font-size: 25px;
+    border-radius: 7px;
+    text-align: right;
+}
+input[type="date"]:hover {
+    background-color: #09dd367d;
+    transition: 0.5s ease-in;
+}
+input[type="email"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 612px;
+    height: 35px;
+    border-radius: 7px;
+    padding: 20px;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: green;
+}
+input[type="email"]:hover {
+    background-color: #09dd367d;
+    transition: 0.5s ease-in;
+}
+input[type="number"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 612px;
+    height: 35px;
+    border-radius: 7px;
+    padding: 20px;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: green;
+}
+input[type="number"]:hover {
+    background-color: #09dd367d;
+    transition: 0.5s ease-in;
+}
+.form-filed .ins-box {
+    width: 611px;
+}
+.submit input {
+    width: 150px;
+    height: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #383e38;
+    color: #fff;
+    padding-top: 11px;
+    padding-bottom: 35px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.submit {
+    width: 612px;
+    text-align: center;
+    margin-top: 20px;
+    /* cursor: pointer; */
+}
